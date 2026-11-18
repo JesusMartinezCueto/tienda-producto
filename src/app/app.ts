@@ -16,12 +16,12 @@ export class App {
   nombreTienda: string = 'JesusStore';
   encargado: string = 'Jesús Martínez';
   numeroSucursal: number = 3;
-  tiendaAbierta: boolean = true;
-  categorias: string[] = ['Celulares', 'Accesorios', 'Audífonos',];
+  tiendaAbierta: boolean = false;
+  categorias: string[] = ['Celulares', 'Accesorios', 'Audífonos', 'Tablets'];
 
   producto: Producto = {
-    nombre: 'iPhone 16',
-    precio: 9500,
-    disponible: true,
+    nombre: 'Xioami c3',
+    precio: 1500,
+    disponible: false,
   };
 }
