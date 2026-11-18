@@ -13,15 +13,15 @@ interface Producto {
   styleUrl: './app.css',
 })
 export class App {
-  nombreTienda: string = 'TecnoStore';
+  nombreTienda: string = 'JesusStore';
   encargado: string = 'Jesús Martínez';
   numeroSucursal: number = 3;
-  tiendaAbierta: boolean = false;
-  categorias: string[] = ['Celulares', 'Accesorios', 'Audífonos', 'Tablets'];
+  tiendaAbierta: boolean = true;
+  categorias: string[] = ['Celulares', 'Accesorios', 'Audífonos',];
 
   producto: Producto = {
-    nombre: 'iPhone 15',
-    precio: 7500,
-    disponible: false,
+    nombre: 'iPhone 16',
+    precio: 9500,
+    disponible: true,
   };
 }

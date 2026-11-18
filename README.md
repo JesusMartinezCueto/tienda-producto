@@ -1,6 +1,6 @@
 # Práctica: Presentación de un producto en Angular
 
-Página que presenta un producto (un celular) de la tienda **TecnoStore**.
+Página que presenta un producto (un celular) de la tienda **JesusStore**.
 
 ## Cómo ejecutar
 
