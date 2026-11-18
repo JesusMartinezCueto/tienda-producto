@@ -1,0 +1,33 @@
+<main class="pagina">
+  <header class="encabezado">
+    <h1>{{ nombreTienda }}</h1>
+    <p>Sucursal N° {{ numeroSucursal }} · Encargado: {{ encargado }}</p>
+
+    @if (tiendaAbierta) {
+      <span class="estado abierta">Tienda abierta</span>
+    } @else {
+      <span class="estado cerrada">Tienda cerrada</span>
+    }
+  </header>
+
+  <section class="tarjeta">
+    <h2>Categorías</h2>
+    <ul>
+      @for (categoria of categorias; track categoria) {
+        <li>{{ categoria }}</li>
+      }
+    </ul>
+  </section>
+
+  <section class="tarjeta producto">
+    <h2>Producto destacado</h2>
+    <h3>{{ producto.nombre }}</h3>
+    <p class="precio">Bs. {{ producto.precio }}</p>
+
+    @if (producto.disponible) {
+      <span class="estado abierta">Producto disponible</span>
+    } @else {
+      <span class="estado cerrada">Producto agotado</span>
+    }
+  </section>
+</main>
