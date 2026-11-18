@@ -47,7 +47,7 @@ tiene una de más o se le asigna un tipo incorrecto (por ejemplo, un texto en `p
 
 **3. ¿Qué hace `{{ }}`?**
 Es la interpolación: muestra en el HTML el valor de una propiedad de la clase. Por
-ejemplo `{{ nombreTienda }}` imprime "TecnoStore". Si el valor cambia en `app.ts`,
+ejemplo `{{ nombreTienda }}` imprime "JesusStore". Si el valor cambia en `app.ts`,
 la página se actualiza automáticamente.
 
 **4. ¿Qué diferencia existe entre `@if` y `@for`?**
