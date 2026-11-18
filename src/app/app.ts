@@ -16,12 +16,12 @@ export class App {
   nombreTienda: string = 'TecnoStore';
   encargado: string = 'Jesús Martínez';
   numeroSucursal: number = 3;
-  tiendaAbierta: boolean = true;
-  categorias: string[] = ['Celulares', 'Accesorios', 'Audífonos'];
+  tiendaAbierta: boolean = false;
+  categorias: string[] = ['Celulares', 'Accesorios', 'Audífonos', 'Tablets'];
 
   producto: Producto = {
-    nombre: 'Samsung Galaxy A55',
-    precio: 3200,
-    disponible: true,
+    nombre: 'iPhone 15',
+    precio: 7500,
+    disponible: false,
   };
 }
